@@ -1,0 +1,50 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data outputs (model responses, evaluation results)
+data/results.json
+data/evaluation_results.json
+data/*.json
+!data/prompts.json  # Keep prompts.json tracked
+
+# Logs
+*.log
+
+# Test/coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/Editor extras
+*.bak
+*.tmp
+*~
